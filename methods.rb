@@ -25,5 +25,5 @@ end
 puts_two("Zed","Shaw")
 puts_one("First!")
 puts_none() # same as puts_none, without ()
-puts_reverse("Try this hat on.");
-puts_upcase("Hey, I put some new shoes on and suddenly everything feels right!");
+puts_reverse("Try this hat on.")
+puts_upcase("Hey, I put some new shoes on and suddenly everything feels right!")
