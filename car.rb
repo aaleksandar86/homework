@@ -9,14 +9,14 @@ class Car
     puts "My new car: Year: #{year}, Color: #{color}, Model: #{model}"
     end
 
-    def speed_up(kmh)
-      @car_speed += kmh
-      puts "Wow, speeding up to #{kmh} km/h, is this real life or GTA?"
+    def speed_up(arg1)
+      @car_speed += arg1
+      puts "Wow, speeding up to #{arg1} km/h, is this real life or GTA?"
     end
 
-    def brake(kmh)
-      @car_speed -= kmh
-      puts "Whoa, hold your horses, time to brake #{kmh} km/h."
+    def brake(arg2)
+      @car_speed -= arg2
+      puts "Whoa, hold your horses, time to brake #{arg2} km/h."
     end
 
    def shut_off
